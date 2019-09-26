@@ -38,6 +38,8 @@ public class AreaController {
             map.put("errmsg",e.toString());
         }
 
+        System.out.println(6);
+
         return map;
 
     }
